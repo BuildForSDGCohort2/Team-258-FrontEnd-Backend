@@ -4,3 +4,14 @@
 
 Expense Tracker is an app that will help to track personal expenses.
 
+Authors
+Brian Sipula
+
+License
+This project is licensed under the MIT License
+
+
+Acknowledgments
+Andela Learning Community
+Facebook Learning Circles
+Brad Traversy - YouTube Channel
