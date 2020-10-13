@@ -1,5 +1,6 @@
 import React from 'react';
-
+import AppNavBar from './components/AppNavBar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Header } from './components/Header';
 import { Balance } from './components/Balance';
 import { IncomeExpenses } from './components/IncomeExpenses';
@@ -16,6 +17,7 @@ function App() {
     <GlobalProvider>
       <Header />
       <div className="container">
+        <AppNavBar />
         <Balance />
         <IncomeExpenses />
         <TransactionList />
