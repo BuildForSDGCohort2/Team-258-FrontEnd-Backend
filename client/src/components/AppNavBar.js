@@ -11,7 +11,7 @@ import{
 } from 'reactstrap';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
-export class AppNavBar extends Component {
+class AppNavBar extends Component {
     state = {
         isOpen: false
     }
