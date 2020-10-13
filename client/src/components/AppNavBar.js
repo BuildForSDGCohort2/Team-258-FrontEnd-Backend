@@ -2,15 +2,16 @@ import React, { Component } from 'react';
 import{
     Collapse, 
     Navbar, 
-    NarbarToggler,
+    NavbarToggler,
     NavbarBrand,
     Nav,
     NavItem,
     NavLink,
     Container
 } from 'reactstrap';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
-class AppNavBar extends Component {
+export class AppNavBar extends Component {
     state = {
         isOpen: false
     }
@@ -23,22 +24,23 @@ class AppNavBar extends Component {
  render() {
      return (
         <div>
-        <Narbar color="primary" primary expand="sm" className="mb-5">
+        <Navbar color="dark" dark expand="sm" className="mb-5">
             <Container>
                 <NavbarBrand href="/">ExpenseTracker</NavbarBrand>
-                <NarbarToggler onClick={this.toggle} /> 
-                <Collapse isOpen={this.state.isOpen} narbar>
-                    <Nav className="ml-auto" navbar>
+                <NavbarToggler onClick={this.toggle} />
+                <Collapse isOpen={this.state.isOpen} navbar>
+                    <Nav className="mr-auto" navbar>
+                    <TransitionGroup className="expensetracker">
+                        <CSSTransition>
                         <NavItem>
-                            <NavLink href="#">About Us</NavLink>
-                            <NavLink href="#">Login</NavLink>
-                            <NavLink href="#">Sign Up</NavLink>
-                            <NavLink href="#">New Features Update</NavLink>
+                            <NavLink href="">About Us </NavLink>
                         </NavItem>
+                        </CSSTransition>
+                        </TransitionGroup>
                     </Nav>
                 </Collapse>
             </Container>
-        </Narbar>
+        </Navbar>
     </div>
      );
      
