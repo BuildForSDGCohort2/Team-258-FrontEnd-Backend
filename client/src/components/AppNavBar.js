@@ -25,8 +25,8 @@ class AppNavBar extends Component {
         <div>
         <Narbar color="primary" primary expand="sm" className="mb-5">
             <Container>
-                <NavbarBrand href="ExpenseTracker"></NavbarBrand>
-                <NarbarToggler onClick={this.toggle}> </NarbarToggler>
+                <NavbarBrand href="/">ExpenseTracker</NavbarBrand>
+                <NarbarToggler onClick={this.toggle} /> 
                 <Collapse isOpen={this.state.isOpen} narbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
