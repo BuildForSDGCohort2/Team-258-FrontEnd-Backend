@@ -25,14 +25,14 @@ body {
 }
 
 h1 {
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   margin: 0;
 }
 
 h3 {
-  border-bottom: 1px solid #bbb;
-  padding-bottom: 5px;
-  margin: 30px 0 5px;
+  border-bottom: 2px solid #bbb;
+  padding-bottom: 10px;
+  margin: 40px 0 10px;
 }
 
 h4 {
@@ -43,10 +43,10 @@ h4 {
 .inc-exp-container {
   background-color: #fff;
   box-shadow: var(--box-shadow);
-  padding: 15px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
-  margin: 15px 0;
+  margin: 20px 0;
 }
 
 .inc-exp-container > div {
@@ -59,9 +59,9 @@ h4 {
 }
 
 .money {
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 1px;
-  margin: 3px 0;
+  margin: 5px 0;
 }
 
 .money.plus {
@@ -74,7 +74,7 @@ h4 {
 
 label {
   display: inline-block;
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 input[type='text'],
@@ -82,8 +82,8 @@ input[type='number'] {
   border: 1px solid #dedede;
   border-radius: 2px;
   display: block;
-  font-size: 12px;
-  padding: 5px;
+  font-size: 16px;
+  padding: 10px;
   width: 100%;
 }
 
@@ -95,9 +95,9 @@ input[type='number'] {
   border: 0;
   display: block;
   font-size: 16px;
-  margin: 8px 0 25px;
-  padding: 8px;
-  width: 30%;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 35%;
 }
 
 .btn:focus,
@@ -108,7 +108,7 @@ input[type='number'] {
 .list {
   list-style-type: none;
   padding: 0;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .list li {
@@ -118,8 +118,8 @@ input[type='number'] {
   display: flex;
   justify-content: space-between;
   position: relative;
-  padding: 8px;
-  margin: 8px 0;
+  padding: 10px;
+  margin: 10px 0;
 }
 
 .list li.plus {
@@ -150,8 +150,8 @@ input[type='number'] {
   opacity: 1;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 320px) {
   .container {
-    width: 350px;
+    width: 300px;
   }
 }
