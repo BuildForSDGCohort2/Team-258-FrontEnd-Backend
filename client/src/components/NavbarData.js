@@ -11,14 +11,14 @@ export const NavbarData = [
     cName: 'nav-text'
   },
   {
-    title: 'About Us',
-    path: '/aboutus',
+    title: 'About the App',
+    path: '/abouttheapp',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },
   {
-    title: 'New Features',
-    path: '/newfeatures',
+    title: 'Expense Screen',
+    path: '/expensescreen',
     icon: <FaIcons.FaCartPlus />,
     cName: 'nav-text'
   },
@@ -28,16 +28,17 @@ export const NavbarData = [
     icon: <IoIcons.IoMdPeople />,
     cName: 'nav-text'
   },
-  {
-    title: 'Log In',
-    path: '/login',
-    icon: <FaIcons.FaEnvelopeOpenText />,
-    cName: 'nav-text'
-  },
-  {
-    title: 'Sign Up',
-    path: '/signup',
-    icon: <IoIcons.IoMdHelpCircle />,
-    cName: 'nav-text'
-  }
+  //{
+   // title: 'Log In',
+    //path: '/login',
+   // icon: <FaIcons.FaEnvelopeOpenText />,
+    //cName: 'nav-text'
+  //},
+
+  //{
+ //   title: 'Sign Up',
+  //  path: '/signup',
+  //  icon: <IoIcons.IoMdHelpCircle />,
+  //  cName: 'nav-text'
+ // }
 ];
